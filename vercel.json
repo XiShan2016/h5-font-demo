@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/font/(.*).woff2",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}
